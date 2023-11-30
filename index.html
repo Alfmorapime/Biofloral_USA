@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles2.css" />
+    </head>
+    <body>
+        <section class="section">
+            <div class="section-container-game">
+                <div class="team">
+                    <h1 class="title">Home</h1>
+                    <h1 class="score" id="homeScore">0</h1>
+                    <div>
+                        <button class="btn" onclick="homeAddOne()">+1</button>
+                        <button class="btn" onclick="homeAddTwo()">+2</button>
+                        <button class="btn" onclick="homeAddThree()">+3</button>
+                    </div>
+                </div>
+                <div class="team">
+                    <h1 class="title">Visitor</h1>
+                    <h1 class="score" id="VisitorScore">0</h1>
+                    <div>
+                        <button class="btn" onclick="visitorAddOne()">+1</button>
+                        <button class="btn" onclick="visitorAddTwo()">+2</button>
+                        <button class="btn" onclick="visitorAddThree()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-new-game" onclick="newGame()">START A NEW GAME</button>
+        </section>
+        <script src="scoreboard.js"></script>
+    </body>
+</html>
